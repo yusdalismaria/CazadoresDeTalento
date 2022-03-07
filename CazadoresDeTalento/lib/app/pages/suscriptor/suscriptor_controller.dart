@@ -106,8 +106,9 @@ class SuscriptorController extends GetxController {
   }
 
   void enviarCorreo() async {
+    //colocar correo
     String correo = 'yusdalismmg@gmail.com';
-    String password = 'Canela.192598@Chester';
+    String password = '********************';
 
     final smtpServer = gmail(correo, password);
     // Use the SmtpServer class to configure an SMTP server:
